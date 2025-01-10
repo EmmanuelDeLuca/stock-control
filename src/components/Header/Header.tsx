@@ -4,8 +4,9 @@ import * as S from "./styles";
 export const Header: React.FC = () => {
   return (
     <S.StyledHeader>
-      <div>
-        <strong>StockControl</strong>
+      <S.Wrapper>
+        <S.Logo>StockControl</S.Logo>
+        <S.ImgLog></S.ImgLog>
         <ul>
           <li>
             <a href="/"> Cadastrar </a>
@@ -17,7 +18,7 @@ export const Header: React.FC = () => {
             <a href="/"> Dashboard</a>
           </li>
         </ul>
-      </div>
+      </S.Wrapper>
     </S.StyledHeader>
   );
 };

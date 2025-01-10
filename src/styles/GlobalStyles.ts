@@ -9,11 +9,12 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        background-color: #f7f7f7;
+        background-color: #E6F4F1
+        ;
     }
 
     body, button, input {
-        font-family: 'Poppins', sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     button{
