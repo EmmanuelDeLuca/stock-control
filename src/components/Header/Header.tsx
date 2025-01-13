@@ -6,18 +6,27 @@ export const Header: React.FC = () => {
     <S.StyledHeader>
       <S.Wrapper>
         <S.Logo>StockControl</S.Logo>
-        <S.ImgLog></S.ImgLog>
-        <ul>
-          <li>
-            <a href="/"> Cadastrar </a>
-          </li>
-          <li>
-            <a href="/"> Produtos</a>
-          </li>
-          <li>
-            <a href="/"> Dashboard</a>
-          </li>
-        </ul>
+        <S.DivWraper>
+          <nav>
+            <S.UlList>
+              <S.LiList>
+                <a href="/" aria-label="Cadastrar Produtos">
+                  Cadastrar
+                </a>
+              </S.LiList>
+              <S.LiList>
+                <a href="/" aria-label="Produtos">
+                  Produtos
+                </a>
+              </S.LiList>
+              <S.LiList>
+                <a href="/" aria-label="Dashboard">
+                  Dashboard
+                </a>
+              </S.LiList>
+            </S.UlList>
+          </nav>
+        </S.DivWraper>
       </S.Wrapper>
     </S.StyledHeader>
   );

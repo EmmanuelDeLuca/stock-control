@@ -26,4 +26,5 @@ export const GlobalStyles = createGlobalStyle`
             transition: filter 0.3s;
         }
     }
+    
 `;
